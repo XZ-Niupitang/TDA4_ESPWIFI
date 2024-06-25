@@ -1,0 +1,136 @@
+[0;32mI (298) esp_image: segment 3: paddr=000e3614 vaddr=40807810 size=0de44h ( 56900) load[0m
+[0;32mI (312) esp_image: segment 4: paddr=000f1460 vaddr=40815660 size=0332ch ( 13100) load[0m
+[0;32mI (321) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (321) boot: Disabling RNG early entropy source...[0m
+[0;32mI (332) cpu_start: Unicore app[0m
+[0;32mI (333) cpu_start: Pro cpu up.[0m
+[0;33mW (341) clk: esp_perip_clk_init() has not been implemented yet[0m
+[0;32mI (348) cpu_start: Pro cpu start user code[0m
+[0;32mI (348) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (349) cpu_start: Application information:[0m
+[0;32mI (351) cpu_start: Project name:     network_adapter[0m
+[0;32mI (357) cpu_start: App version:      release/ng-v1.0.2-263-gaf480c5-[0m
+[0;32mI (364) cpu_start: Compile time:     May 30 2024 21:12:48
+load:0x4086e610,len:0x2d64
+load:0x40875720,len:0x17f0
+entry 0x4086c410
+[0;32mI (24) boot: ESP-IDF cbce221e-dirty 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time May 30 2024 20:00:06[0m
+[0;32mI (25) boot: chip revision: v0.0[0m
+[0;32mI (28) boot.esp32c6: SPI Speed      : 40MHz[0m
+[0;32mI (33) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (37) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (66) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (73) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  3 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot:  4 ota_0            OTA app          00 10 00110000 00100000[0m
+[0;32mI (96) boot:  5 ota_1            OTA app          00 11 00210000 00100000[0m
+[0;32mI (103) boot: End of partition table[0m
+[0;32mI (108) boot: Defaulting to factory image[0m
+[0;32mI (112) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=287e0h (165856) map[0m
+[0;32mI (155) esp_image: segment 1: paddr=00038808 vaddr=40800000 size=07810h ( 30736) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a35ech (669164) map[0m
+[0;32mI (299) esp_image: segment 3: paddr=000e3614 vaddr=40807810 size=0de44h ( 56900) load[0m
+[0;32mI (313) esp_image: segment 4: paddr=000f1460 vaddr=40815660 size=0332ch ( 13100) load[0m
+[0;32mI (322) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (323) boot: Disabling RNG early entropy source...[0m
+[0;32mI (334) cpu_start: Unicore app[0m
+[0;32mI (334) cpu_start: Pro cpu up.[0m
+[0;33mW (343) clk: esp_perip_clk_init() has not been implemented yet[0m
+[0;32mI (350) cpu_start: Pro cpu start user code[0m
+[0;32mI (350) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (350) cpu_start: Application information:[0m
+[0;32mI (353) cpu_start: Project name:     network_adapter[0m
+[0;32mI (358) cpu_start: App version:      release/ng-v1.0.2-263-gaf480c5-[0m
+[0;32mI (365) cpu_start: Compile time:     May 30 2024 21:12:48[0m
+[0;32mI (371) cpu_start: ELF file SHA256:  bf0d6320d10423a2...[0m
+[0;32mI (377) cpu_start: ESP-IDF:          cbce221e-dirty[0m
+[0;32mI (383) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (388) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (392) cpu_start: Chip rev:         v0.0[0m
+[0;32mI (397) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (404) heap_init: At 4081E090 len 0005E580 (377 KiB): D/IRAM[0m
+[0;32mI (411) heap_init: At 4087C610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (418) heap_init: At 50000010 len 00003FF0 (15 KiB): RTCRAM[0m
+[0;32mI (425) spi_flash: detected chip: generic[0m
+[0;32mI (429) spi_flash: flash io: dio[0m
+[0;33mW (433) spi_flash: Detected size(8192k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;32mI (446) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (452) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (460) coexist: coex firmware version: ebddf30[0m
+[0;32mI (465) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (470) app_start: Starting scheduler on CPU0[0m
+[0;32mI (475) main_task: Started on CPU0[0m
+[0;32mI (475) main_task: Calling app_main()[0m
+[0;32mI (475) NETWORK_ADAPTER: *********************************************************************[0m
+[0;32mI (485) NETWORK_ADAPTER:                 ESP-Hosted-FG Firmware version :: 0.0.5                        [0m
+[0;32mI (495) NETWORK_ADAPTER:                 Transport used :: SPI only                      [0m
+[0;32mI (505) NETWORK_ADAPTER: *********************************************************************[0m
+[0;32mI (515) NETWORK_ADAPTER: Supported features are:[0m
+[0;32mI (525) NETWORK_ADAPTER: - WLAN over SPI[0m
+[0;32mI (525) ESP_BT: - BT/BLE[0m
+[0;32mI (525) ESP_BT:    - HCI Over SPI[0m
+[0;32mI (535) ESP_BT:    - BLE only[0m
+[0;32mI (535) NETWORK_ADAPTER: capabilities: 0xe8[0m
+[0;32mI (545) phy_init: phy_version 202,b4b3263,May 17 2023,20:14:14[0m
+controller lib commit: [5cacafa]
+[0;32mI (605) NETWORK_ADAPTER: ESP Bluetooth MAC addr: 40:4c:ca:56:b5:ca[0m
+[0;32mI (605) SPI_DRIVER: Using SPI interface[0m
+[0;32mI (605) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (615) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (625) SPI_DRIVER: SPI Ctrl:1 mode: 2, InitFreq: 10MHz, ReqFreq: 26MHz
+GPIOs: MOSI: 19, MISO: 20, CS: 18, CLK: 21 HS: 3 DR: 2
+[0m
+[0;32mI (635) SPI_DRIVER: Hosted SPI queue size: Tx:20 Rx:20[0m
+[0;32mI (645) gpio: GPIO[18]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (655) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (665) net80211: net80211 rom version: 5b8dcfa[0m
+I (685) wifi:wifi driver task: 408443f8, prio:23, stack:6656, core=0
+I (685) wifi:wifi firmware version: b2f1f86
+I (685) wifi:wifi certification version: v7.0
+I (685) wifi:config NVS flash: disabled
+I (685) wifi:config nano formating: disabled
+I (695) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N
+I (695) wifi:Init data frame dynamic rx buffer num: 60
+I (705) wifi:Init management frame dynamic rx buffer num: 60
+I (705) wifi:Init management short buffer num: 32
+I (715) wifi:Init dynamic tx buffer num: 40
+I (715) wifi:Init static tx FG buffer num: 2
+I (715) wifi:Init static rx buffer size: 1700
+I (725) wifi:Init static rx buffer num: 40
+I (725) wifi:Init dynamic rx buffer num: 60
+[0;32mI (735) wifi_init: rx ba win: 32[0m
+[0;32mI (735) wifi_init: tcpip mbox: 32[0m
+[0;32mI (735) wifi_init: udp mbox: 6[0m
+[0;32mI (745) wifi_init: tcp mbox: 6[0m
+[0;32mI (745) wifi_init: tcp tx win: 5744[0m
+[0;32mI (755) wifi_init: tcp rx win: 5744[0m
+[0;32mI (755) wifi_init: tcp mss: 1440[0m
+[0;32mI (755) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (765) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (765) esp_adapter: wifi_reset_mac_wrapper() has not been implemented yet[0m
+W (775) wifi:(bf)761:0x600a7cac:0x01b4b4b0
+W (775) wifi:(agc)0x600a7128:0xd21d1b0c, min.avgNF:0xce->0xd2(dB), RCalCount:0x1d1, min.RRssi:0xb0c(-79.25)
+W (785) wifi:(TB)WDEV_PWR_TB_MCS0:19
+W (795) wifi:(TB)WDEV_PWR_TB_MCS1:19
+W (795) wifi:(TB)WDEV_PWR_TB_MCS2:19
+W (795) wifi:(TB)WDEV_PWR_TB_MCS3:19
+W (805) wifi:(TB)WDEV_PWR_TB_MCS4:19
+W (805) wifi:(TB)WDEV_PWR_TB_MCS5:19
+W (805) wifi:(TB)WDEV_PWR_TB_MCS6:18
+W (815) wifi:(TB)WDEV_PWR_TB_MCS7:18
+W (815) wifi:(TB)WDEV_PWR_TB_MCS8:17
+W (815) wifi:(TB)WDEV_PWR_TB_MCS9:15
+W (825) wifi:(TB)WDEV_PWR_TB_MCS10:15
+W (825) wifi:(TB)WDEV_PWR_TB_MCS11:15
+I (825) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).
+
+I (835) wifi:mode : null
+[0;32mI (835) NETWORK_ADAPTER: Initial set up done[0m
+[0;32mI (845) slave_ctrl: event ESPInit[0m
+[0;32mI (845) main_task: Returned from app_main()[0m

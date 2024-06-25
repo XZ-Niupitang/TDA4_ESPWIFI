@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/CMakeFiles/bootloader
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/CMakeFiles/bootloader.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/CMakeFiles/bootloader-complete.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

@@ -1,0 +1,37 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40808652: rv_utils_wait_for_intr at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/riscv/include/riscv/rv_utils.h:33
+ (inlined by) esp_cpu_wait_for_intr at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_hw_support/cpu.c:119
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0mException in thread Thread-2:
+Traceback (most recent call last):
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/esp_idf_monitor/base/serial_reader.py", line 60, in run
+    data = self.serial.read(self.serial.in_waiting or 1)
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/serial/serialposix.py", line 595, in read
+    raise SerialException(
+serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/esp_idf_monitor/base/stoppable_thread.py", line 47, in _run_outer
+    self.run()
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/esp_idf_monitor/base/serial_reader.py", line 72, in run
+    self.open_serial(reset=False)
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/esp_idf_monitor/base/serial_reader.py", line 91, in open_serial
+    self.reset_strategy._setRTS(HIGH)
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/esp_idf_monitor/base/reset.py", line 80, in _setRTS
+    self.serial_instance.setRTS(value)
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/serial/serialutil.py", line 600, in setRTS
+    self.rts = value
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/serial/serialutil.py", line 463, in rts
+    self._update_rts_state()
+  File "/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages/serial/serialposix.py", line 708, in _update_rts_state
+    fcntl.ioctl(self.fd, TIOCMBIC, TIOCM_RTS_str)
+TimeoutError: [Errno 110] Connection timed out
+[0m

@@ -1,0 +1,18 @@
+[1/5] Performing build step for 'bootloader'
+[1/1] cd /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader/esp-idf/esptool_py && /home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader/bootloader.bin
+Bootloader binary size 0x52f0 bytes. 0x2d10 bytes (35%) free.
+[2/3] cd /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/esp-idf/esptool_py && /home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/partition_table/partition-table.bin /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/network_adapter.bin
+network_adapter.bin binary size 0xe47b0 bytes. Smallest app partition is 0x100000 bytes. 0x1b850 bytes (11%) free.
+[2/3] cd /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf -D "SERIAL_TOOL=/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c6" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;--no-stub;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build -P /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32c6 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset --no-stub write_flash --flash_mode dio --flash_freq 80m --flash_size 4MB 0x0 bootloader/bootloader.bin 0x10000 network_adapter.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+
+A fatal error occurred: Could not open /dev/ttyACM0, the port is busy or doesn't exist.
+([Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0')
+
+Hint: Check if the port is correct and ESP connected
+
+FAILED: CMakeFiles/flash 
+cd /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf -D "SERIAL_TOOL=/home/xiaowai/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c6" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;--no-stub;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build -P /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py/run_serial_tool.cmake
+ninja: build stopped: subcommand failed.

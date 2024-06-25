@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/build/bootloader",
+    "config_file":        "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/network_adapter/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "cbce221e-dirty",
+    "target":             "esp32c6",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "99",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/efuse/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_common/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_hw_support/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/freertos/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/hal/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/log/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/newlib/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/soc/Kconfig;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader/Kconfig.projbuild;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_rom/Kconfig.projbuild;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py/Kconfig.projbuild;/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader_support", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/efuse", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_app_format", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_common", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_hw_support", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_rom", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esptool_py", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/freertos", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/hal", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/log", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader/subproject/main", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/newlib", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/partition_table", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/riscv", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/soc", "/home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/spi_flash", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

@@ -1,0 +1,1071 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4080062e: panic_abort at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/panic.c:452
+0x40809daa: __ubsan_include at /home/xiaowai/exmnt/esp-hosted/esp_hosted_fg/esp/esp_driver/esp-idf/components/esp_system/ubsan.c:313
+[0m
+[0;33m0x40800001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4001975a: software_reset_cpu in ROM
+[0m
+[0m

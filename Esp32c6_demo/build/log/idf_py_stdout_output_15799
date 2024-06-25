@@ -1,0 +1,129 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40808652
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xd48
+load:0x4086e610,len:0x2d64
+load:0x40875720,len:0x17f0
+entry 0x4086c410
+[0;32mI (23) boot: ESP-IDF cbce221e-dirty 2nd stage bootloader[0m
+[0;32mI (23) boot: compile time May 30 2024 20:00:06[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (26) boot.esp32c6: SPI Speed      : 40MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (64) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (72) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  3 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot:  4 ota_0            OTA app          00 10 00110000 00100000[0m
+[0;32mI (94) boot:  5 ota_1            OTA app          00 11 00210000 00100000[0m
+[0;32mI (102) boot: End of partition table[0m
+[0;32mI (106) boot: Defaulting to factory image[0m
+[0;32mI (111) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=287e0h (165856) map[0m
+[0;32mI (153) esp_image: segment 1: paddr=00038808 vaddr=40800000 size=07810h ( 30736) load[0m
+[0;32mI (161) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a35ech (669164) map[0m
+[0;32mI (298) esp_image: segment 3: paddr=000e3614 vaddr=40807810 size=0de44h ( 56900) load[0m
+[0;32mI (312) esp_image: segment 4: paddr=000f1460 vaddr=40815660 size=0332ch ( 13100) load[0m
+[0;32mI (321) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (321) boot: Disabling RNG early entropy source...[0m
+[0;32mI (332) cpu_start: Unicore app[0m
+[0;32mI (333) cpu_start: Pro cpu up.[0m
+[0;33mW (342) clk: esp_perip_clk_init() has not been implemented yet[0m
+[0;32mI (348) cpu_start: Pro cpu start user code[0m
+[0;32mI (348) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (349) cpu_start: Application information:[0m
+[0;32mI (351) cpu_start: Project name:     network_adapter[0m
+[0;32mI (357) cpu_start: App version:      release/ng-v1.0.2-263-gaf480c5-[0m
+[0;32mI (364) cpu_start: Compile time:     Jun  3 2024 21:44:13[0m
+[0;32mI (370) cpu_start: ELF file SHA256:  26dc1858c08cb090...[0m
+[0;32mI (376) cpu_start: ESP-IDF:          cbce221e-dirty[0m
+[0;32mI (382) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (386) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (391) cpu_start: Chip rev:         v0.0[0m
+[0;32mI (396) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (403) heap_init: At 4081E090 len 0005E580 (377 KiB): D/IRAM[0m
+[0;32mI (409) heap_init: At 4087C610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (416) heap_init: At 50000010 len 00003FF0 (15 KiB): RTCRAM[0m
+[0;32mI (423) spi_flash: detected chip: generic[0m
+[0;32mI (427) spi_flash: flash io: dio[0m
+[0;32mI (431) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (438) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (445) coexist: coex firmware version: ebddf30[0m
+[0;32mI (450) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (456) app_start: Starting scheduler on CPU0[0m
+[0;32mI (460) main_task: Started on CPU0[0m
+[0;32mI (460) main_task: Calling app_main()[0m
+[0;32mI (460) NETWORK_ADAPTER: *********************************************************************[0m
+[0;32mI (470) NETWORK_ADAPTER:                 ESP-Hosted-FG Firmware version :: 0.0.5                        [0m
+[0;32mI (480) NETWORK_ADAPTER:                 Transport used :: SPI only                      [0m
+[0;32mI (490) NETWORK_ADAPTER: *********************************************************************[0m
+[0;32mI (500) NETWORK_ADAPTER: Supported features are:[0m
+[0;32mI (510) NETWORK_ADAPTER: - WLAN over SPI[0m
+[0;32mI (510) ESP_BT: - BT/BLE[0m
+[0;32mI (510) ESP_BT:    - HCI Over SPI[0m
+[0;32mI (520) ESP_BT:    - BLE only[0m
+[0;32mI (520) NETWORK_ADAPTER: capabilities: 0xe8[0m
+[0;32mI (530) phy_init: phy_version 202,b4b3263,May 17 2023,20:14:14[0m
+controller lib commit: [5cacafa]
+[0;32mI (580) NETWORK_ADAPTER: ESP Bluetooth MAC addr: 54:32: 4: 0:4e:22[0m
+[0;32mI (580) SPI_DRIVER: Using SPI interface[0m
+[0;32mI (580) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (590) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (600) SPI_DRIVER: SPI Ctrl:1 mode: 2, InitFreq: 10MHz, ReqFreq: 26MHz
+GPIOs: MOSI: 19, MISO: 20, CS: 18, CLK: 21 HS: 3 DR: 2
+[0m
+[0;32mI (610) SPI_DRIVER: Hosted SPI queue size: Tx:20 Rx:20[0m
+[0;32mI (620) gpio: GPIO[18]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (630) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (640) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (640) net80211: net80211 rom version: 5b8dcfa[0m
+I (650) wifi:wifi driver task: 40844368, prio:23, stack:6656, core=0
+I (650) wifi:wifi firmware version: b2f1f86
+I (650) wifi:wifi certification version: v7.0
+I (660) wifi:config NVS flash: disabled
+I (660) wifi:config nano formating: disabled
+I (670) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N
+I (670) wifi:Init data frame dynamic rx buffer num: 60
+I (680) wifi:Init management frame dynamic rx buffer num: 60
+I (680) wifi:Init management short buffer num: 32
+I (680) wifi:Init dynamic tx buffer num: 40
+I (690) wifi:Init static tx FG buffer num: 2
+I (690) wifi:Init static rx buffer size: 1700
+I (700) wifi:Init static rx buffer num: 40
+I (700) wifi:Init dynamic rx buffer num: 60
+[0;32mI (710) wifi_init: rx ba win: 32[0m
+[0;32mI (710) wifi_init: tcpip mbox: 32[0m
+[0;32mI (710) wifi_init: udp mbox: 6[0m
+[0;32mI (720) wifi_init: tcp mbox: 6[0m
+[0;32mI (720) wifi_init: tcp tx win: 5744[0m
+[0;32mI (720) wifi_init: tcp rx win: 5744[0m
+[0;32mI (730) wifi_init: tcp mss: 1440[0m
+[0;32mI (730) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (740) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (740) esp_adapter: wifi_reset_mac_wrapper() has not been implemented yet[0m
+W (750) wifi:(bf)761:0x600a7cac:0x01b4b4b0
+W (750) wifi:(agc)0x600a7128:0xd21a79ba, min.avgNF:0xce->0xd2(dB), RCalCount:0x1a7, min.RRssi:0x9ba(-100.38)
+W (760) wifi:(TB)WDEV_PWR_TB_MCS0:19
+W (770) wifi:(TB)WDEV_PWR_TB_MCS1:19
+W (770) wifi:(TB)WDEV_PWR_TB_MCS2:19
+W (770) wifi:(TB)WDEV_PWR_TB_MCS3:19
+W (780) wifi:(TB)WDEV_PWR_TB_MCS4:19
+W (780) wifi:(TB)WDEV_PWR_TB_MCS5:19
+W (780) wifi:(TB)WDEV_PWR_TB_MCS6:18
+W (790) wifi:(TB)WDEV_PWR_TB_MCS7:18
+W (790) wifi:(TB)WDEV_PWR_TB_MCS8:17
+W (790) wifi:(TB)WDEV_PWR_TB_MCS9:15
+W (800) wifi:(TB)WDEV_PWR_TB_MCS10:15
+W (800) wifi:(TB)WDEV_PWR_TB_MCS11:15
+I (800) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).
+
+I (810) wifi:mode : null
+[0;32mI (810) NETWORK_ADAPTER: Initial set up done[0m
+[0;32mI (820) slave_ctrl: event ESPInit[0m
+[0;32mI (820) main_task: Returned from app_main()[0m
