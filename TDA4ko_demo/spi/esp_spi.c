@@ -545,7 +545,7 @@ static int spi_dev_init(int spi_clk_mhz)
 	esp_board.mode = SPI_MODE_2;
 	esp_board.max_speed_hz = spi_clk_mhz * NUMBER_1M;
 	// spi 片选与接口选择
-	esp_board.bus_num = 5;
+	esp_board.bus_num = 6;
 	esp_board.chip_select = 3;
 
 	master = spi_busnum_to_master(esp_board.bus_num);
